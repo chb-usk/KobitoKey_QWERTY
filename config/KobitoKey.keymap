@@ -74,6 +74,7 @@
         compatible = "zmk,keymap";
 
         default_layer_mac {
+            label = "default_layer_mac";
             bindings = <
 &kp Q             &kp W             &kp E                &kp R        &kp T        &kp Y     &kp U        &kp I                     &kp O          &kp P
 &kp A             &kp S             &kp D                &kp F        &kp G        &kp H     &kp J        &kp K                     &kp L          &kp MINUS
@@ -83,6 +84,7 @@
         };
 
         default_layer_win {
+            label = "default_layer_win";
             bindings = <
 &kp Q             &kp W         &kp E                        &kp R        &kp T        &kp Y     &kp U        &kp I                             &kp O          &mt DELETE P
 &kp A             &kp S         &kp D                        &kp F        &kp G        &kp H     &kp J        &kp K                             &kp L          &kp MINUS
@@ -92,6 +94,7 @@
         };
 
         SYMBOL {
+            label = "SYMBOL";
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)   &kp LS(NUMBER_0)
 &kp ESC           &trans            &trans            &trans            &trans            &kp MINUS         &kp EQUAL         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
@@ -101,6 +104,7 @@
         };
 
         NUMBER {
+            label = "NUMBER";
             bindings = <
 &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp N1  &kp N2   &kp N3  &trans    &trans
 &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &kp N4  &kp N5   &kp N6  &kp PLUS  &kp MINUS
@@ -110,6 +114,7 @@
         };
 
         MOVE {
+            label = "MOVE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &kp LG(LEFT_ARROW)   &trans          &kp UP_ARROW  &trans     &kp PAGE_UP
 &trans  &trans  &trans  &trans  &trans  &kp LG(RIGHT_ARROW)  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN
@@ -119,6 +124,7 @@
         };
 
         BLUETOOTH {
+            label = "BLUETOOTH";
             bindings = <
 &trans      &BT0Mac  &BT1Mac  &BT2Win  &BT3Win  &trans  &trans  &trans  &trans  &trans
 &trans      &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans
@@ -128,6 +134,7 @@
         };
 
         MOUSE {
+            label = "MOUSE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1      &mkp MB3  &mkp MB2       &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1      &mkp MB3  &mkp MB2       &trans
